@@ -1,0 +1,46 @@
+/* Fonts */
+@font-face {
+    font-family: "Console";
+    src: url(fonts/lucidaconsole.ttf);
+}
+
+
+body{
+    width: 200px;
+    padding: 15px 0 30px 0;
+    background-color: #444;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.title{
+    text-align: center;
+    font-size: 32px;
+    line-height: 30px;
+    font-family: 'Pacifico', cursive;
+}
+
+.input{
+    display: block;
+    width: 150px;
+    height: 75px;
+    margin: 30px auto 0 auto;
+    resize: none;
+    font-family: "Console";
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #333;
+}
+
+.input::-webkit-scrollbar{
+    display: none;
+}
